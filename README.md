@@ -49,7 +49,7 @@ Creates a new instance of `Ethash`.
 Verifies the POW on a block and its uncles
 
 **Parameters**  
-- `block` - the [block](https://github.com/ethereum/ethereumjs-block) to verify
+- `block` - the [block](https://github.com/expansejs/expansejs-block) to verify
 - `cb` - the callback which is given a `Boolean` determining the validaty of the block 
 
 ### `ethash.mkcache(cacheSize, seed)`
