@@ -1,21 +1,18 @@
 # SYNOPSIS
-[![NPM Package](https://img.shields.io/npm/v/ethashjs.svg?style=flat-square)](https://www.npmjs.org/package/ethashjs)
-[![Build Status](https://travis-ci.org/ethereumjs/ethashjs.svg?branch=master&style=flat-square)](https://travis-ci.org/ethereumjs/ethashjs)
-[![Coverage Status](https://img.shields.io/coveralls/ethereumjs/ethashjs.svg?style=flat-square)](https://coveralls.io/r/ethereumjs/ethashjs)
-[![Gitter](https://img.shields.io/gitter/room/ethereum/ethereumjs-lib.svg?style=flat-square)](https://gitter.im/ethereum/ethereumjs-lib) or #ethereumjs on freenode
+[![NPM Package](https://img.shields.io/npm/v/ethashjs-exp.svg?style=flat-square)](https://www.npmjs.org/package/ethashjs-exp)
 
 Implements [Ethash](https://github.com/ethereum/wiki/wiki/Ethash)
 
 # CONTACT
- [Scrollback](https://scrollback.io/ethereumjs/all/all-messages) or #ethereumjs on freenode
+ [slack](https://slack.expanse.tech)
 
 # INSTALL
-`npm install ethashjs`
+`npm install ethashjs-exp`
 
 # USAGE
 ```javascript
-const Ethash = require('ethashjs')
-const Block = require('ethereumjs-block')
+const Ethash = require('ethashjs-exp')
+const Block = require('expansejs-block')
 const levelup = require('levelup')
 const memdown = require('memdown')
 

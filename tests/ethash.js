@@ -1,9 +1,9 @@
 const Ethash = require('../index.js')
 const ethHashUtil = require('../util.js')
-const ethUtil = require('ethereumjs-util')
-const Header = require('ethereumjs-block/header.js')
+const ethUtil = require('expansejs-util')
+const Header = require('expansejs-block/header.js')
 const tape = require('tape')
-const powTests = require('ethereumjs-testing').tests.powTests.ethash_tests
+const powTests = require('expansejs-testing').tests.powTests.ethash_tests
 
 var ethash = new Ethash()
 var tests = Object.keys(powTests)

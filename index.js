@@ -1,4 +1,4 @@
-const ethUtil = require('ethereumjs-util')
+const ethUtil = require('expansejs-util')
 const ethHashUtil = require('./util.js')
 const xor = require('buffer-xor')
 const BN = ethUtil.BN

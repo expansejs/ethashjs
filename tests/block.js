@@ -1,5 +1,5 @@
 const Ethash = require('../index.js')
-const Block = require('ethereumjs-block')
+const Block = require('expansejs-block')
 const tape = require('tape')
 const levelup = require('levelup')
 const memdown = require('memdown')

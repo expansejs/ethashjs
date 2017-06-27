@@ -1,4 +1,4 @@
-const ethUtil = require('ethereumjs-util')
+const ethUtil = require('expansejs-util')
 const MR = require('miller-rabin')
 const BN = ethUtil.BN
 
